@@ -1,0 +1,9 @@
+1.若在gulp默认命令中localhost端口中cannnot get/index.html,则先cmd进入文件,dir命令查看路径,有的
+话再gulp webserver(再启动一下端口),在gulp能够找到index.html
+2.修改端口号的话,webserver里有port参数可修改
+3.想修改localhost为指定的网址,则在C:\Windows\System32\drivers\etc\hosts 里修改
+在最后一行输入 127.0.0.1 www.b2c.com -------------------此方法gulp里的,是windows自带修改dns的方法   可在cmd中输入 ping www.b2c.com看到有数据返回
+4.gulpfile修改后要重启
+5.Error  <68:25> 68行25列代码有错误
+6..若文件出现问题,用调试法,删除一些或全部删除,一点点调试
+7.有些属性要用移动端测试(如tap)
